@@ -62,3 +62,11 @@ a.note{display:inline-block}a.note:hover{color:#ffe736}
 .dd-menu a{padding:10px 16px;white-space:nowrap}.dd-menu a:hover{background:#ffe736;color:#111!important}
 .dd:hover .dd-menu,.dd:focus-within .dd-menu{opacity:1;visibility:visible;transform:none}.dd:hover .dd-btn i,.dd:focus-within .dd-btn i{transform:rotate(180deg)}
 @media(max-width:800px){.dd-btn{font:10px monospace;letter-spacing:2px;color:#ffe736;padding:0;pointer-events:none}.dd-btn i{display:none}.dd-menu{position:static;opacity:1;visibility:visible;transform:none;border:0;box-shadow:none;background:none;padding:10px 0 0 14px;gap:16px;border-left:2px solid #ffe736;margin-top:10px}.dd-menu a{padding:0}.dd-menu a:hover{background:none;color:#ffe736!important}}
+.button .ico{width:22px;height:22px;margin-right:10px;flex:none}
+.contact .book{background:#ef4da0;color:#111;box-shadow:6px 6px 0 #111}
+.hero-ctas{display:flex;flex-wrap:wrap;gap:22px;align-items:center}.partners .hero-ctas{margin-top:30px}.partners .hero-ctas .button{margin-top:0}
+.button.ghost{background:transparent;color:#ffe736;border-color:#ffe736;box-shadow:6px 6px 0 #18c7cc}.button.ghost:hover{box-shadow:8px 8px 0 #18c7cc}
+.button.ghost.dark{color:#111;border-color:#111;box-shadow:6px 6px 0 #18c7cc}
+.cta-note{margin-top:22px;font:11px monospace;letter-spacing:1.5px;color:#bbbbc3;max-width:460px}
+@media(max-width:800px){.hero-ctas{flex-direction:column;align-items:flex-start}.hero-ctas .button{min-width:250px}}
+.page-hero .cta-note{font-size:11px;line-height:1.7;color:#bbbbc3}

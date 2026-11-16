@@ -70,3 +70,4 @@ a.note{display:inline-block}a.note:hover{color:#ffe736}
 .cta-note{margin-top:22px;font:11px monospace;letter-spacing:1.5px;color:#bbbbc3;max-width:460px}
 @media(max-width:800px){.hero-ctas{flex-direction:column;align-items:flex-start}.hero-ctas .button{min-width:250px}}
 .page-hero .cta-note{font-size:11px;line-height:1.7;color:#bbbbc3}
+.comic img.wide{aspect-ratio:auto;height:auto}

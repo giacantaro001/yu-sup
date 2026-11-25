@@ -71,3 +71,14 @@ a.note{display:inline-block}a.note:hover{color:#ffe736}
 @media(max-width:800px){.hero-ctas{flex-direction:column;align-items:flex-start}.hero-ctas .button{min-width:250px}}
 .page-hero .cta-note{font-size:11px;line-height:1.7;color:#bbbbc3}
 .comic img.wide{aspect-ratio:auto;height:auto}
+.formulas{display:flex;flex-direction:column;gap:18px;margin-top:34px;max-width:560px}
+.formulas-label{font:11px monospace;letter-spacing:2px;color:#55555b}
+.formula{display:flex;align-items:center;gap:18px;padding:20px 24px;border:3px solid #111;color:#111;box-shadow:7px 7px 0 #111;transition:transform .15s,box-shadow .15s}
+.formula.rack{background:#ffe736}.formula.app{background:#ef4da0}
+.formula:hover{transform:translate(-3px,-3px);box-shadow:10px 10px 0 #111}
+.formula .ico{width:38px;height:38px;flex:none}
+.formula span{display:flex;flex-direction:column;flex:1}
+.formula b{font:28px/1.05 Anton,Impact,sans-serif;letter-spacing:.5px}
+.formula small{font-size:14px;margin-top:6px;line-height:1.35}
+.formula i{font-style:normal;font:30px Anton,Impact,sans-serif;flex:none}
+@media(max-width:800px){.formula b{font-size:22px}.formula{padding:16px 18px;gap:14px}}

@@ -116,3 +116,13 @@ a.note{display:inline-block}a.note:hover{color:#ffe736}
 .path.start .path-tag{background:#ffe736}
 .path.start .path-tag b{color:#ffe736}
 @media(max-width:600px){.path .path-tag{font-size:20px;gap:12px}.path .path-tag b{font-size:40px}}
+
+/* "Come funziona": more compact */
+@media(min-width:801px){
+#how{padding-top:70px;padding-bottom:70px}
+#how .heading-row{margin-bottom:30px}
+#how h2{font-size:clamp(38px,4vw,60px)}
+#how .steps article{padding:24px 28px}
+#how .steps img{width:64px;height:64px;margin:4px auto 16px}
+#how .steps h3{margin-bottom:10px}
+}

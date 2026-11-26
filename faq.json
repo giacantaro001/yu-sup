@@ -1,116 +1,171 @@
 {
-  "version": "2026-11-16",
-  "source": "Single source for the YÜ SUP website and app FAQs",
-  "faqs": [
-    {
-      "id": "q1",
-      "en": {
-        "q": "How do I rent a SUP?",
-        "a": "Choose a station on the map or scan its QR code. Select a duration and collection time, review the price, and follow the payment and collection steps."
-      },
-      "it": {
-        "q": "Come noleggio un SUP?",
-        "a": "Scegli una stazione sulla mappa o scansiona il suo QR. Seleziona durata e orario di ritiro, controlla il prezzo e segui i passaggi per pagamento e ritiro."
-      }
-    },
-    {
-      "id": "q2",
-      "en": {
-        "q": "What is included?",
-        "a": "The rental kit contains a SUP board, paddle, life jacket and dry bag. Check the equipment before leaving the station and report anything missing or damaged."
-      },
-      "it": {
-        "q": "Cosa è incluso?",
-        "a": "Il kit comprende tavola SUP, pagaia, giubbotto salvagente e sacca stagna. Controlla tutto prima di lasciare la stazione e segnala elementi mancanti o danneggiati."
-      }
-    },
-    {
-      "id": "q3",
-      "en": {
-        "q": "Who can rent?",
-        "a": "The account holder and renter must be at least 18 years old. You must be able to swim and use the equipment safely."
-      },
-      "it": {
-        "q": "Chi può noleggiare?",
-        "a": "Il titolare dell’account e il noleggiante devono avere almeno 18 anni. Devi saper nuotare e utilizzare l’attrezzatura in sicurezza."
-      }
-    },
-    {
-      "id": "q4",
-      "en": {
-        "q": "How much does it cost?",
-        "a": "The rental fee is shown before payment. There is no deposit. Your confirmed booking keeps its agreed price even if prices later change."
-      },
-      "it": {
-        "q": "Quanto costa?",
-        "a": "Il prezzo è mostrato prima del pagamento. Non c’è deposito. Le prenotazioni confermate mantengono il prezzo concordato anche se le tariffe cambiano."
-      }
-    },
-    {
-      "id": "q5",
-      "en": {
-        "q": "Is there a deposit?",
-        "a": "No. You pay only the rental fee. Your card is saved securely with Stripe and charged again only if the kit is returned late (the 1-hour price for each started hour) or is damaged, missing or not returned (up to €200, as assessed by our team from the return photo). Extra charges never exceed €200 in total and the reason is shown in your rental and by email."
-      },
-      "it": {
-        "q": "C’è un deposito?",
-        "a": "No. Paghi solo il noleggio. La carta viene salvata in modo sicuro con Stripe e addebitata di nuovo solo in caso di riconsegna in ritardo (il prezzo di 1 ora per ogni ora iniziata) o di kit danneggiato, mancante o non restituito (fino a 200 €, valutato dal nostro team in base alla foto del reso). Gli addebiti extra non superano mai 200 € in totale e il motivo è indicato nel noleggio e via email."
-      }
-    },
-    {
-      "id": "q6",
-      "en": {
-        "q": "Can I pay with Apple Pay or Google Pay?",
-        "a": "Stripe shows eligible payment methods for your device, country and account. Wallets need a compatible browser/device and setup. The payment method must allow later charges for late return or damage."
-      },
-      "it": {
-        "q": "Posso usare Apple Pay o Google Pay?",
-        "a": "Stripe mostra i metodi disponibili per dispositivo, paese e account. I wallet richiedono un browser/dispositivo compatibile e la configurazione necessaria. Il metodo di pagamento deve consentire addebiti successivi per ritardo o danni."
-      }
-    },
-    {
-      "id": "q7",
-      "en": {
-        "q": "When does a full-day rental end?",
-        "a": "At the closing time shown for your station and booking date, rather than 24 hours after collection. Check the displayed return deadline before paying."
-      },
-      "it": {
-        "q": "Quando termina il noleggio giornaliero?",
-        "a": "All’orario di chiusura indicato per la stazione e la data prenotata, non dopo 24 ore. Controlla la scadenza mostrata prima del pagamento."
-      }
-    },
-    {
-      "id": "q8",
-      "en": {
-        "q": "Can I cancel?",
-        "a": "You can cancel an uncollected booking from My rentals. Any captured rental fee is refunded. Bank processing times can vary."
-      },
-      "it": {
-        "q": "Posso annullare?",
-        "a": "Puoi annullare un noleggio non ancora ritirato da I miei noleggi. Il prezzo addebitato viene rimborsato. I tempi bancari possono variare."
-      }
-    },
-    {
-      "id": "q9",
-      "en": {
-        "q": "Where do I return the kit?",
-        "a": "Return the complete kit to the assigned compartment at the collection station. Follow the return steps and wait for confirmation; closing a door alone does not confirm a complete return."
-      },
-      "it": {
-        "q": "Dove restituisco il kit?",
-        "a": "Restituisci il kit completo nel vano assegnato presso la stazione di ritiro. Segui i passaggi e attendi conferma: chiudere la porta da solo non conferma un reso completo."
-      }
-    },
-    {
-      "id": "q10",
-      "en": {
-        "q": "What if the equipment or station has a problem?",
-        "a": "Do not force a door or use damaged equipment. Keep the booking reference and contact hello@yusup.co.uk. If conditions are unsafe, do not enter the water and follow local safety instructions."
-      },
-      "it": {
-        "q": "Cosa faccio in caso di problemi?",
-        "a": "Non forzare le porte e non usare attrezzatura danneggiata. Conserva il riferimento della prenotazione e contatta hello@yusup.co.uk. Non entrare in acqua con condizioni pericolose e rispetta le indicazioni locali."
-      }
-    }
-  ]
+ "version": "2026-11-26",
+ "source": "Single source for the YÜ SUP website and app FAQs",
+ "faqs": [
+  {
+   "id": "q1",
+   "en": {
+    "q": "How do I rent a SUP?",
+    "a": "Open the app, choose a station on the map or scan its QR code, pick when and for how long, check the price and pay. The first time, you complete your profile and verify your ID in the app, so on the day you only collect the board."
+   },
+   "it": {
+    "q": "Come noleggio un SUP?",
+    "a": "Apri l’app, scegli una postazione sulla mappa o scansiona il suo QR, scegli quando e per quanto tempo, controlla il prezzo e paga. La prima volta completi il profilo e verifichi il documento in app, così il giorno del noleggio devi solo ritirare la tavola."
+   }
+  },
+  {
+   "id": "q11",
+   "en": {
+    "q": "What booking options are there?",
+    "a": "Book for right now or schedule a start time up to 6 days ahead. Choose 1 hour, 2 hours or a full day until the station closes. The price, the collection time and the return deadline are shown before you pay."
+   },
+   "it": {
+    "q": "Quali opzioni di prenotazione ci sono?",
+    "a": "Puoi prenotare per subito o programmare l’inizio fino a 6 giorni prima. Scegli 1 ora, 2 ore o la giornata intera fino alla chiusura della postazione. Prezzo, orario di ritiro e scadenza della riconsegna sono indicati prima di pagare."
+   }
+  },
+  {
+   "id": "q12",
+   "en": {
+    "q": "How do I collect the board?",
+    "a": "It depends on the station, and the app tells you which one it is. At a smart rack you unlock the padlock with the app and take the kit on your own. At a staffed station look for the YÜ SUP check-out sign and show the QR code of your booking: the staff scan it and hand you your board, with its number. Either way you complete a short safety briefing in the app first."
+   },
+   "it": {
+    "q": "Come ritiro la tavola?",
+    "a": "Dipende dalla postazione, e l’app ti dice quale è. Alla rastrelliera automatizzata sblocchi il lucchetto con l’app e prendi il kit da solo. Nelle postazioni con lo staff cerca il cartello YÜ SUP check-out e mostra il QR della prenotazione: lo staff lo scansiona e ti consegna la tua tavola, con il suo numero. In entrambi i casi prima fai un breve briefing di sicurezza in app."
+   }
+  },
+  {
+   "id": "q2",
+   "en": {
+    "q": "What is included?",
+    "a": "Usually a SUP board, paddle, life jacket and dry bag: the kit for each station is listed in the app before you pay. Check the equipment before you go out and report anything missing or damaged straight away."
+   },
+   "it": {
+    "q": "Cosa è incluso?",
+    "a": "Di solito tavola SUP, pagaia, giubbotto salvagente e sacca stagna: il kit di ogni postazione è indicato in app prima di pagare. Controlla l’attrezzatura prima di uscire e segnala subito elementi mancanti o danneggiati."
+   }
+  },
+  {
+   "id": "q3",
+   "en": {
+    "q": "Who can rent?",
+    "a": "The account holder and renter must be at least 18 years old, with an ID verified in the app. You must be able to swim and use the equipment safely."
+   },
+   "it": {
+    "q": "Chi può noleggiare?",
+    "a": "Il titolare dell’account e il noleggiante devono avere almeno 18 anni e un documento verificato in app. Devi saper nuotare e utilizzare l’attrezzatura in sicurezza."
+   }
+  },
+  {
+   "id": "q4",
+   "en": {
+    "q": "How much does it cost and when do I pay?",
+    "a": "The price is shown before you pay. When you book, the amount is only held on your card; it is charged when you collect the board. A confirmed booking keeps its price even if prices later change."
+   },
+   "it": {
+    "q": "Quanto costa e quando pago?",
+    "a": "Il prezzo è mostrato prima di pagare. Quando prenoti, l’importo viene solo bloccato sulla carta e addebitato quando ritiri la tavola. Una prenotazione confermata mantiene il suo prezzo anche se le tariffe cambiano."
+   }
+  },
+  {
+   "id": "q5",
+   "en": {
+    "q": "Is there a deposit?",
+    "a": "No. You pay only the rental fee. Your card is saved securely with Stripe and charged again only if the kit is returned late (the 1-hour price for each started hour) or is damaged, missing or not returned (up to €200, assessed by our team from the return photo or the staff report). Extra charges never exceed €200 in total and the reason is shown in your rental and by email."
+   },
+   "it": {
+    "q": "C’è un deposito?",
+    "a": "No. Paghi solo il noleggio. La carta viene salvata in modo sicuro con Stripe e addebitata di nuovo solo in caso di riconsegna in ritardo (il prezzo di 1 ora per ogni ora iniziata) o di kit danneggiato, mancante o non restituito (fino a 200 €, valutato dal nostro team in base alla foto del reso o alla segnalazione dello staff). Gli addebiti extra non superano mai 200 € in totale e il motivo è indicato nel noleggio e via email."
+   }
+  },
+  {
+   "id": "q6",
+   "en": {
+    "q": "Can I pay with Apple Pay or Google Pay?",
+    "a": "Stripe shows eligible payment methods for your device, country and account. Wallets need a compatible browser/device and setup. The payment method must allow later charges for late return or damage."
+   },
+   "it": {
+    "q": "Posso usare Apple Pay o Google Pay?",
+    "a": "Stripe mostra i metodi disponibili per dispositivo, paese e account. I wallet richiedono un browser/dispositivo compatibile e la configurazione necessaria. Il metodo di pagamento deve consentire addebiti successivi per ritardo o danni."
+   }
+  },
+  {
+   "id": "q8",
+   "en": {
+    "q": "Can I cancel? Do I get a refund?",
+    "a": "Yes. You can cancel free of charge from My rentals until you collect the board. If the amount was only held on your card, the hold is released straight away; if it had already been charged, you get a full refund (your bank may take a few days to show it). Once you have collected the board the rental can no longer be cancelled."
+   },
+   "it": {
+    "q": "Posso annullare? Vengo rimborsato?",
+    "a": "Sì. Puoi annullare gratis da I miei noleggi finché non hai ritirato la tavola. Se l’importo era solo bloccato sulla carta, il blocco viene rilasciato subito; se era già stato addebitato, ti rimborsiamo l’intero importo (la banca può impiegare qualche giorno a mostrarlo). Dopo il ritiro il noleggio non si può più annullare."
+   }
+  },
+  {
+   "id": "q13",
+   "en": {
+    "q": "Can I change the time or stay out longer?",
+    "a": "To change the day or time, cancel the booking (it is free) and book again. While you are on the water you can extend from the app by 1 hour, 2 hours or until closing: the extra time costs the 1-hour price for each started hour."
+   },
+   "it": {
+    "q": "Posso cambiare orario o restare in acqua di più?",
+    "a": "Per cambiare giorno o orario annulla la prenotazione (è gratis) e prenota di nuovo. Quando sei in acqua puoi prolungare dall’app di 1 ora, 2 ore o fino alla chiusura: il tempo in più costa il prezzo di 1 ora per ogni ora iniziata."
+   }
+  },
+  {
+   "id": "q14",
+   "en": {
+    "q": "What if the sea is rough or there is a red flag?",
+    "a": "You can collect a board only when the lido shows the white flag (lifeguard on duty). With a red flag rentals stop: bookings not yet collected are cancelled automatically, the hold is released or the payment refunded, and you get an email."
+   },
+   "it": {
+    "q": "E se il mare è mosso o c’è bandiera rossa?",
+    "a": "Puoi ritirare la tavola solo quando il lido espone la bandiera bianca (bagnino in servizio). Con la bandiera rossa i noleggi si fermano: le prenotazioni non ancora ritirate vengono annullate automaticamente, il blocco sulla carta viene rilasciato o il pagamento rimborsato, e ricevi un’email."
+   }
+  },
+  {
+   "id": "q7",
+   "en": {
+    "q": "When does a full-day rental end?",
+    "a": "At the closing time shown for your station and booking date, rather than 24 hours after collection. Check the displayed return deadline before paying."
+   },
+   "it": {
+    "q": "Quando termina il noleggio giornaliero?",
+    "a": "All’orario di chiusura indicato per la stazione e la data prenotata, non dopo 24 ore. Controlla la scadenza mostrata prima del pagamento."
+   }
+  },
+  {
+   "id": "q9",
+   "en": {
+    "q": "Where do I return the kit?",
+    "a": "At a smart rack, put the complete kit back in the assigned compartment, follow the return steps and wait for confirmation: closing a door alone does not confirm a complete return. At a staffed station, bring the kit back to the staff at the same point by the return time: they scan the same QR code to confirm the return."
+   },
+   "it": {
+    "q": "Dove restituisco il kit?",
+    "a": "Alla rastrelliera automatizzata rimetti il kit completo nel vano assegnato, segui i passaggi e attendi la conferma: chiudere la porta da solo non conferma un reso completo. Nelle postazioni con lo staff riporta il kit allo staff, nello stesso punto, entro l’orario di riconsegna: lo staff scansiona lo stesso QR per confermare il rientro."
+   }
+  },
+  {
+   "id": "q15",
+   "en": {
+    "q": "Can I contact the lido before I arrive?",
+    "a": "Yes. Open your booking and tap Chat with the lido: ask what time to come or where to find the staff. The lido sees only your booking number until you collect the board."
+   },
+   "it": {
+    "q": "Posso contattare il lido prima di arrivare?",
+    "a": "Sì. Apri la prenotazione e tocca Chat con il lido: chiedi a che ora venire o dove trovare lo staff. Il lido vede solo il numero della prenotazione finché non ritiri la tavola."
+   }
+  },
+  {
+   "id": "q10",
+   "en": {
+    "q": "What if the equipment or station has a problem?",
+    "a": "Do not force a door or use damaged equipment. Tell the staff if there are any, keep the booking reference and contact us from the app chat or at hello@yusup.co.uk. If conditions are unsafe, do not enter the water and follow local safety instructions."
+   },
+   "it": {
+    "q": "Cosa faccio in caso di problemi?",
+    "a": "Non forzare le porte e non usare attrezzatura danneggiata. Avvisa lo staff, se presente, conserva il riferimento della prenotazione e contattaci dalla chat in app o a hello@yusup.co.uk. Non entrare in acqua con condizioni pericolose e rispetta le indicazioni locali."
+   }
+  }
+ ]
 }

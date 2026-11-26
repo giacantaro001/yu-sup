@@ -129,3 +129,4 @@ a.note{display:inline-block}a.note:hover{color:#ffe736}
 
 /* "L'idea": give the wide stations picture more room */
 @media(min-width:801px){.story-grid{grid-template-columns:1fr 1.45fr;gap:5%}}
+@media(max-width:800px){.story-grid .comic .burst{display:none}}

@@ -101,3 +101,9 @@ a.note{display:inline-block}a.note:hover{color:#ffe736}
 .path.start .ticks li:before{color:#111}.path.start .ticks li{color:#33333a}
 .path-video{width:100%;aspect-ratio:16/9;display:block;border:3px solid #111;margin:4px 0 22px;background:#111}.path.have .path-video{border-color:#18c7cc}
 .path-video.video-soon{display:flex;align-items:center;justify-content:center;box-sizing:border-box;color:#ffe03a;font-weight:900;letter-spacing:.08em;font-size:15px}
+
+/* formula buttons: slide preview + explicit action */
+.formula em{font:12px/1 monospace;font-style:normal;font-weight:700;letter-spacing:1.5px;margin-top:10px;text-transform:uppercase}
+.formula:hover em{text-decoration:underline}
+.path.have .formulas-label{color:#9fa0a6}
+@media(max-width:600px){.formula b{font-size:20px}.formula small{font-size:13px}}

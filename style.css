@@ -100,3 +100,4 @@ a.note{display:inline-block}a.note:hover{color:#ffe736}
 @media(max-width:900px){.paths{grid-template-columns:1fr;gap:34px;margin-top:55px}.path{padding:30px 24px}}
 .path.start .ticks li:before{color:#111}.path.start .ticks li{color:#33333a}
 .path-video{width:100%;aspect-ratio:16/9;display:block;border:3px solid #111;margin:4px 0 22px;background:#111}.path.have .path-video{border-color:#18c7cc}
+.path-video.soon{display:flex;align-items:center;justify-content:center;box-sizing:border-box;color:#ffe03a;font-weight:900;letter-spacing:.08em;font-size:15px}

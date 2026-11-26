@@ -130,3 +130,5 @@ a.note{display:inline-block}a.note:hover{color:#ffe736}
 /* "L'idea": give the wide stations picture more room */
 @media(min-width:801px){.story-grid{grid-template-columns:1fr 1.45fr;gap:5%}}
 @media(max-width:800px){.story-grid .comic .burst{display:none}}
+.formulas-label.pick{display:inline-block;align-self:flex-start;font:30px/1.1 Anton,Impact,sans-serif;letter-spacing:.5px;color:#111;background:#18c7cc;border:3px solid #111;box-shadow:5px 5px 0 #111;padding:10px 18px;transform:rotate(-1.5deg);margin:6px 0 8px}
+@media(max-width:800px){.formulas-label.pick{font-size:24px}}

@@ -107,3 +107,12 @@ a.note{display:inline-block}a.note:hover{color:#ffe736}
 .formula:hover em{text-decoration:underline}
 .path.have .formulas-label{color:#9fa0a6}
 @media(max-width:600px){.formula b{font-size:20px}.formula small{font-size:13px}}
+
+/* bigger, clearer split between the two paths */
+.path .path-tag{display:flex;align-items:center;gap:16px;font:26px/1.05 Anton,Impact,sans-serif;letter-spacing:.5px;padding:12px 20px 12px 12px;border:3px solid #111;margin-bottom:26px;color:#111;box-shadow:6px 6px 0 #111}
+.path .path-tag b{font:52px/1 Anton,Impact,sans-serif;background:#111;padding:6px 12px 4px;flex:none}
+.path.have .path-tag{background:#18c7cc;color:#111;border-color:#18c7cc;box-shadow:6px 6px 0 #faf7ee}
+.path.have .path-tag b{color:#18c7cc}
+.path.start .path-tag{background:#ffe736}
+.path.start .path-tag b{color:#ffe736}
+@media(max-width:600px){.path .path-tag{font-size:20px;gap:12px}.path .path-tag b{font-size:40px}}

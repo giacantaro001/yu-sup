@@ -132,3 +132,4 @@ a.note{display:inline-block}a.note:hover{color:#ffe736}
 @media(max-width:800px){.story-grid .comic .burst{display:none}}
 .formulas-label.pick{display:block;font:34px/1.1 Anton,Impact,sans-serif;letter-spacing:.5px;color:#111;background:none;border:0;box-shadow:none;padding:0;margin:10px 0 4px;transform:none;cursor:default}
 @media(max-width:800px){.formulas-label.pick{font-size:24px}}
+@media(max-width:800px){.story-grid .comic{margin:24px -7vw 0;transform:none;border-left:0;border-right:0;box-shadow:0 7px 0 #111}.story-grid .comic img.wide{width:100%}.story-grid .comic figcaption{padding:10px;font-size:12px}}
